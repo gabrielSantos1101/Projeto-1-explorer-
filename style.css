@@ -1,0 +1,73 @@
+:root {
+  font-size: 63%; /* 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+  max-width: 34.8rem;
+  margin-bottom: 7.2rem;
+}
+
+.wrapper {
+  width: 59.2rem;
+  margin: auto;
+}
+
+header h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 7.2rem;
+}
+
+h1 span {
+  font-size: 4.9rem;
+  font-weight: bold;
+}
+
+p {
+  color: hsla(256, 5%, 50%, 1);
+  margin-bottom: 3.2rem;
+}
+
+span {
+  color: hsla(36, 100%, 50%, 1);
+}
+
+footer {
+  margin-bottom: 3.2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsla(36, 100%, 50%, 1);
+}
+
+footer a + a {
+  margin-left: 2.9rem;
+}
+
+.line {
+  width: 56.8rem;
+  height: 0px;
+  margin: o auto 0.8rem;
+
+  border: 1px rgb(255, 0, 0);
+}
+
+#balls {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
